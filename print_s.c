@@ -10,6 +10,9 @@ int print_s(va_list ap)
 	int i, len = 0;
 	char *str = va_arg(ap, char *);
 
+	if (str == NULL)
+		str = "(null)";
+
 	while (str[len])
 		len++;
 

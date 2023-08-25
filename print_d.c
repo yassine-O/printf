@@ -14,6 +14,7 @@ int print_d(va_list ap)
 	{
 		num = -num;
 		_putchar('-');
+		len++;
 	}
 
 	while (num > q * 10)
