@@ -23,5 +23,6 @@ int (*get_print_func(char c))(va_list);
 
 int print_c(va_list ap);
 int print_s(va_list ap);
+int print_d(va_list ap);
 
 #endif

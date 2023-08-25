@@ -12,6 +12,8 @@ int (*get_print_func(char c))(va_list)
 	cs_print css[] = {
 		{"c", print_c},
 		{"s", print_s},
+		{"d", print_d},
+		{"i", print_d},
 		{NULL, NULL}
 	};
 	int i = 0;
