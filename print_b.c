@@ -9,7 +9,7 @@ int print_b(va_list ap)
 {
 	int i, len = 0;
 	unsigned int num = va_arg(ap, unsigned int);
-	int tab[16];
+	int tab[32];
 
 	for (i = 0; num > 0; i++)
 	{
