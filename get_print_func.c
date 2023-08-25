@@ -14,6 +14,7 @@ int (*get_print_func(char c))(va_list)
 		{"s", print_s},
 		{"d", print_d},
 		{"i", print_d},
+		{"u", print_d},
 		{"b", print_b},
 		{"r", print_r},
 		{NULL, NULL}
