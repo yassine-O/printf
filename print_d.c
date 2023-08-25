@@ -10,9 +10,6 @@ int print_d(va_list ap)
 	int len = 1, q = 1;
 	int num = va_arg(ap, int);
 
-	if (num == NULL)
-		num = 0;
-
 	if (num < 0)
 	{
 		num = -num;
