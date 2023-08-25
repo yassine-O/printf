@@ -25,5 +25,6 @@ int print_c(va_list ap);
 int print_s(va_list ap);
 int print_d(va_list ap);
 int print_b(va_list ap);
+int print_r(va_list ap);
 
 #endif
